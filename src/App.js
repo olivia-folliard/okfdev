@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import React from "react";
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Projects" element={<Projects />} />
           </Routes>
       </div>
     </Router>
