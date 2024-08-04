@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Home.css'
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
-        <>
-            <img src="/jellies.jpg" alt="jellies"/>
-            <div>Hello</div>
-        </>
+        <div className='home'>
+            <div>Welcome</div>
+            <button><Link to="/about">About</Link></button>
+        </div>
     )
 }
 
