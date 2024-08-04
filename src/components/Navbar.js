@@ -5,8 +5,10 @@ import '../styles/Navbar.css'
 function Navbar() {
     return (
         <nav className='navbar'>
-            <ul>
-                <li><Link to="/">Home</Link></li>
+            <div className='left'>
+                <Link to="/">Olivia Folliard</Link>
+            </div>
+            <ul className='right'>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link to="/projects">Projects</Link></li>

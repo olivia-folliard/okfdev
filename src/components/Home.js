@@ -5,8 +5,10 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className='home'>
-            <div>Welcome</div>
-            <button><Link to="/about">About</Link></button>
+            <header>Welcome</header>
+            <button><Link to="/about">About Me</Link></button>
+            <button><Link to="/contact">Contact Info</Link></button>
+            <button><Link to="/projects">My Projects</Link></button>
         </div>
     )
 }

@@ -1,14 +1,21 @@
 .navbar {
     background-color: #59acff;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin: 0;
     padding: 0;
+  }
+
+  .navbar home {
+    justify-content: left;
   }
   
   .navbar li {

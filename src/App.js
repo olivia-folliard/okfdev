@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -8,18 +8,15 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 
 function AppContents() {
-  const location = useLocation();
-  const hidePath = ['/'];
-  const hide = hidePath.includes(location.pathname);
 
   return (
     <div>
-      {!hide  && <Navbar />}
+      <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
     </div>
   );
