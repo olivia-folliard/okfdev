@@ -13,7 +13,7 @@ function Home() {
                         I like to 
                         <Typewriter 
                             words={[" code", " travel", " learn", " exercise", " give back", " cook"]} 
-                            loop={false}
+                            //loop={false}
                         />
                     </h1>
                 </div>
