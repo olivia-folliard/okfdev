@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/olivia-folliard.github.io/static/css/main.257c126f.css",
+    "main.js": "/olivia-folliard.github.io/static/js/main.3b8d0258.js",
+    "static/js/453.2f8b893f.chunk.js": "/olivia-folliard.github.io/static/js/453.2f8b893f.chunk.js",
+    "index.html": "/olivia-folliard.github.io/index.html",
+    "main.257c126f.css.map": "/olivia-folliard.github.io/static/css/main.257c126f.css.map",
+    "main.3b8d0258.js.map": "/olivia-folliard.github.io/static/js/main.3b8d0258.js.map",
+    "453.2f8b893f.chunk.js.map": "/olivia-folliard.github.io/static/js/453.2f8b893f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.257c126f.css",
+    "static/js/main.3b8d0258.js"
+  ]
+}
